@@ -1,0 +1,90 @@
+{
+  "requested_address": "4564 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4564 W LOFTY WOOD DR",
+    "mail_address": "4564 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704",
+    "owner": "SILKWOOD, COURTNEY & CYNTHIA MARION",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "62,170",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 031",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Lofty Wood Drive",
+        "housenumber": "4564",
+        "lon": -94.22589077872979,
+        "lat": 36.0750711,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4564 West Lofty Wood Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4564 West Lofty Wood Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QGF+2J",
+        "plus_code_short": "3QGF+2J, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.51001,
+          "popularity": 1.9991352611188624,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "5132c798fe748e57c059f8af07ee9b094240f00102f9019037681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22589077872979,
+          36.0750711
+        ]
+      },
+      "bbox": [
+        -94.2259837,
+        36.0749926,
+        -94.2257959,
+        36.0751443
+      ]
+    }
+  ],
+  "query": {
+    "text": "4564 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4564",
+      "street": "w lofty wood dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

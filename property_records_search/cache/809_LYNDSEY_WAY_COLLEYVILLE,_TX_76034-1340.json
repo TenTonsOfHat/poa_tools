@@ -1,0 +1,90 @@
+{
+  "requested_address": "809 LYNDSEY WAY COLLEYVILLE, TX 76034-1340",
+  "property_record": {
+    "address": "4457 W PUTTING GREEN DR",
+    "mail_address": "809 LYNDSEY WAY COLLEYVILLE, TX 76034-1340",
+    "owner": "GULIZIA, JAMES M & AMY L",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "82,280",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 063",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Texas",
+        "county": "Tarrant County",
+        "city": "Colleyville",
+        "postcode": "76034",
+        "street": "Lyndsey Way",
+        "housenumber": "809",
+        "lon": -97.17937057142858,
+        "lat": 32.896847,
+        "state_code": "TX",
+        "result_type": "building",
+        "formatted": "809 Lyndsey Way, Colleyville, TX 76034, United States of America",
+        "address_line1": "809 Lyndsey Way",
+        "address_line2": "Colleyville, TX 76034, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "8644VRWC+P7",
+        "plus_code_short": "VRWC+P7 Colleyville, Tarrant County, United States",
+        "rank": {
+          "importance": -0.8399999999999999,
+          "popularity": 3.944914626380546,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51a389b4ce7a4b58c0590342ebe1cb724040f00102f9018023982800000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17937057142858,
+          32.896847
+        ]
+      },
+      "bbox": [
+        -97.179420571429,
+        32.896797,
+        -97.179320571429,
+        32.896897
+      ]
+    }
+  ],
+  "query": {
+    "text": "809 LYNDSEY WAY COLLEYVILLE, TX 76034-1340",
+    "parsed": {
+      "housenumber": "809",
+      "street": "lyndsey way",
+      "postcode": "76034-1340",
+      "city": "colleyville",
+      "state": "tx",
+      "expected_type": "building"
+    }
+  }
+}

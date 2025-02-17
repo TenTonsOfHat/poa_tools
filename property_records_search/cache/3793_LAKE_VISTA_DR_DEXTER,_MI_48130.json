@@ -1,0 +1,85 @@
+{
+  "requested_address": "3793 LAKE VISTA DR DEXTER, MI 48130",
+  "property_record": {
+    "address": "557 N TOURNAMENT DR",
+    "mail_address": "3793 LAKE VISTA DR DEXTER, MI 48130",
+    "owner": "MABRY, STEVEN C & TAMMY R",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "83,148",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 040",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openaddresses",
+          "attribution": "\u00a9 OpenAddresses contributors",
+          "license": "BSD-3-Clause License",
+          "url": null
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Michigan",
+        "county": "Washtenaw County",
+        "city": "Dexter",
+        "postcode": "48130",
+        "street": "Lake Vista Drive",
+        "housenumber": "3793",
+        "lon": -83.833546,
+        "lat": 42.332257,
+        "state_code": "MI",
+        "result_type": "building",
+        "formatted": "3793 Lake Vista Drive, Dexter, MI 48130, United States of America",
+        "address_line1": "3793 Lake Vista Drive",
+        "address_line2": "Dexter, MI 48130, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Detroit",
+          "offset_STD": "-05:00",
+          "offset_STD_seconds": -18000,
+          "offset_DST": "-04:00",
+          "offset_DST_seconds": -14400,
+          "abbreviation_STD": "EST",
+          "abbreviation_DST": "EDT"
+        },
+        "plus_code": "86JR85J8+WH",
+        "plus_code_short": "85J8+WH, 48130 Dexter, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 2.767215644081073,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "518b6d52d158f554c059fc6eba65872a4540c00203e203446f70656e6164647265737365733a616464726573733a75732f6d692f73656d636f672d6164647265737365732d636f756e74793a66663335363937363731376466653833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.833546,
+          42.332257
+        ]
+      },
+      "bbox": null
+    }
+  ],
+  "query": {
+    "text": "3793 LAKE VISTA DR DEXTER, MI 48130",
+    "parsed": {
+      "housenumber": "3793",
+      "street": "lake vista dr",
+      "postcode": "48130",
+      "city": "dexter",
+      "state": "mi",
+      "expected_type": "building"
+    }
+  }
+}

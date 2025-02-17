@@ -1,0 +1,90 @@
+{
+  "requested_address": "4357 W WEDGE DR, FAYETTEVILLE, AR 72704-7517",
+  "property_record": {
+    "address": "4357 W WEDGE DR",
+    "mail_address": "4357 W WEDGE DR, FAYETTEVILLE, AR 72704-7517",
+    "owner": "GRAFF, ALYSSA E & JOHN G",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "81,530",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 005",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Wedge Drive",
+        "housenumber": "4357",
+        "lon": -94.2229191784497,
+        "lat": 36.071832799999996,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4357 West Wedge Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4357 West Wedge Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QCG+PR",
+        "plus_code_short": "3QCG+PR, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.41000999999999993,
+          "popularity": 2.0004326223553828,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51ee45cd4e448e57c059da6333d131094240f00102f901a536681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2229191784497,
+          36.071832799999996
+        ]
+      },
+      "bbox": [
+        -94.2230195,
+        36.0717184,
+        -94.2228196,
+        36.0719203
+      ]
+    }
+  ],
+  "query": {
+    "text": "4357 W WEDGE DR, FAYETTEVILLE, AR 72704-7517",
+    "parsed": {
+      "housenumber": "4357",
+      "street": "w wedge dr",
+      "postcode": "72704-7517",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

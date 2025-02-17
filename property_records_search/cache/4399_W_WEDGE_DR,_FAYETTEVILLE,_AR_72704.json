@@ -1,0 +1,90 @@
+{
+  "requested_address": "4399 W WEDGE DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4399 W WEDGE DR",
+    "mail_address": "4399 W WEDGE DR, FAYETTEVILLE, AR 72704",
+    "owner": "PRICE, MICHAEL & SHANNON TRUST",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "60,426",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 003",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Wedge Drive",
+        "housenumber": "4399",
+        "lon": -94.22348306295923,
+        "lat": 36.0718377,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4399 West Wedge Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4399 West Wedge Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QCG+PJ",
+        "plus_code_short": "3QCG+PJ, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.41000999999999993,
+          "popularity": 2.0004326223553828,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51aba7e78b4d8e57c059580f4efa31094240f00102f901c837681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22348306295923,
+          36.0718377
+        ]
+      },
+      "bbox": [
+        -94.2235827,
+        36.0717539,
+        -94.2233828,
+        36.0719482
+      ]
+    }
+  ],
+  "query": {
+    "text": "4399 W WEDGE DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4399",
+      "street": "w wedge dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

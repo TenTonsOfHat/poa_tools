@@ -1,0 +1,151 @@
+{
+  "requested_address": "4501 S THOMPSON ST SPRINGDALE, AR 72762",
+  "property_record": {
+    "address": "4363 W LOFTY WOOD DR",
+    "mail_address": "4501 S THOMPSON ST SPRINGDALE, AR 72762",
+    "owner": "OUTCOMES INC",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "85,380",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 108",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Springdale",
+        "postcode": "72764",
+        "street": "South Thompson Street",
+        "housenumber": "4501",
+        "lon": -94.14354022877069,
+        "lat": 36.1434595,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4501 South Thompson Street, Springdale, AR 72764, United States of America",
+        "address_line1": "4501 South Thompson Street",
+        "address_line2": "Springdale, AR 72764, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86874VV4+9H",
+        "plus_code_short": "4VV4+9H, 72764 Springdale, United States",
+        "rank": {
+          "importance": 0.41000999999999993,
+          "popularity": 1.993499692644279,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51c00e5bc32f8957c059776682e15c124240f00102f901bafaa02b00000000c00203e203236f70656e7374726565746d61703a616464726573733a7761792f373331393730323334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.14354022877069,
+          36.1434595
+        ]
+      },
+      "bbox": [
+        -94.1436388,
+        36.1434121,
+        -94.1434418,
+        36.1435717
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Springdale",
+        "postcode": "72703",
+        "street": "South Thompson Street",
+        "housenumber": "4501",
+        "lon": -94.14354022877069,
+        "lat": 36.1434595,
+        "state_code": "AR",
+        "result_type": "unknown",
+        "formatted": "4501 South Thompson Street, Springdale, AR 72703, United States of America",
+        "address_line1": "4501 South Thompson Street",
+        "address_line2": "Springdale, AR 72703, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86874VV4+9H",
+        "plus_code_short": "4VV4+9H, 72703 Springdale, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 1.993499692644279,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "inner_part"
+        },
+        "place_id": "51c00e5bc32f8957c059776682e15c124240f00102f901bafaa02b00000000c00200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.14354022877069,
+          36.1434595
+        ]
+      },
+      "bbox": [
+        -94.1442248,
+        36.1400856,
+        -94.1438853,
+        36.1524001
+      ]
+    }
+  ],
+  "query": {
+    "text": "4501 S THOMPSON ST SPRINGDALE, AR 72762",
+    "parsed": {
+      "housenumber": "4501",
+      "street": "s thompson st",
+      "postcode": "72762",
+      "city": "springdale",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "requested_address": "4521 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4521 W PUTTING GREEN DR",
+    "mail_address": "4521 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+    "owner": "FUNK, DAVID & TERESA",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "58,806",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 060",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Putting Green Drive",
+        "housenumber": "4521",
+        "lon": -94.22526955823943,
+        "lat": 36.07272915,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4521 West Putting Green Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4521 West Putting Green Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFF+3V",
+        "plus_code_short": "3QFF+3V, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.51001,
+          "popularity": 1.998941982112089,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "510e5b02d16a8e57c059a25b54304f094240f00102f901e036681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22526955823943,
+          36.07272915
+        ]
+      },
+      "bbox": [
+        -94.2253872,
+        36.0726409,
+        -94.2251525,
+        36.0728669
+      ]
+    }
+  ],
+  "query": {
+    "text": "4521 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4521",
+      "street": "w putting green dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

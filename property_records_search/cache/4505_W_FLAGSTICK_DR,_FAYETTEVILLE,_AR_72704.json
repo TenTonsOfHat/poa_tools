@@ -1,0 +1,90 @@
+{
+  "requested_address": "4505 W FLAGSTICK DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4505 W FLAGSTICK DR",
+    "mail_address": "4505 W FLAGSTICK DR, FAYETTEVILLE, AR 72704",
+    "owner": "NAVA, JULIO & YELIXSA P",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "66,547",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 081",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Flagstick Drive",
+        "housenumber": "4505",
+        "lon": -94.22495620230312,
+        "lat": 36.07364855,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4505 West Flagstick Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4505 West Flagstick Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFG+F2",
+        "plus_code_short": "3QFG+F2, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.41000999999999993,
+          "popularity": 1.9991352611188624,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "5127fbb2ae658e57c059ecd2d0506d094240f00102f901e637681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22495620230312,
+          36.07364855
+        ]
+      },
+      "bbox": [
+        -94.2250618,
+        36.0735718,
+        -94.2248275,
+        36.0737459
+      ]
+    }
+  ],
+  "query": {
+    "text": "4505 W FLAGSTICK DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4505",
+      "street": "w flagstick dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

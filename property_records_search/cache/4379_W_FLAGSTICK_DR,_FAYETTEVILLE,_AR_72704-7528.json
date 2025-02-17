@@ -1,0 +1,90 @@
+{
+  "requested_address": "4379 W FLAGSTICK DR, FAYETTEVILLE, AR 72704-7528",
+  "property_record": {
+    "address": "4379 W FLAGSTICK DR",
+    "mail_address": "4379 W FLAGSTICK DR, FAYETTEVILLE, AR 72704-7528",
+    "owner": "JAMES, SHERRIE & BRITT",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "48,180",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 087",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Flagstick Drive",
+        "housenumber": "4379",
+        "lon": -94.22323028930609,
+        "lat": 36.073605099999995,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4379 West Flagstick Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4379 West Flagstick Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFG+CP",
+        "plus_code_short": "3QFG+CP, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.41000999999999993,
+          "popularity": 1.9999494248384495,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51f602b267498e57c059cea854e46b094240f00102f9017737681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22323028930609,
+          36.073605099999995
+        ]
+      },
+      "bbox": [
+        -94.2233331,
+        36.073543,
+        -94.2231007,
+        36.0737091
+      ]
+    }
+  ],
+  "query": {
+    "text": "4379 W FLAGSTICK DR, FAYETTEVILLE, AR 72704-7528",
+    "parsed": {
+      "housenumber": "4379",
+      "street": "w flagstick dr",
+      "postcode": "72704-7528",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

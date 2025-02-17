@@ -1,0 +1,90 @@
+{
+  "requested_address": "607 SE CAMBRIDGE PL BENTONVILLE, AR 72712",
+  "property_record": {
+    "address": "4555 W WEDGE DR",
+    "mail_address": "607 SE CAMBRIDGE PL BENTONVILLE, AR 72712",
+    "owner": "MOSES, YESU EBENEZER JOSHUVA & STEPHEN, WYOMIA RANI",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "71,396",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 044",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Benton County",
+        "city": "Bentonville",
+        "postcode": "72712",
+        "street": "Southeast Cambridge Place",
+        "housenumber": "607",
+        "lon": -94.17596825584984,
+        "lat": 36.36614845,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "607 Southeast Cambridge Place, Bentonville, AR 72712, United States of America",
+        "address_line1": "607 Southeast Cambridge Place",
+        "address_line2": "Bentonville, AR 72712, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86879R8F+FJ",
+        "plus_code_short": "9R8F+FJ Bentonville, Benton County, United States",
+        "rank": {
+          "importance": 0.31001,
+          "popularity": 2.13637170345699,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "5197005c10438b57c059941dd1f3dd2e4240f00102f9016bbed24b00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.17596825584984,
+          36.36614845
+        ]
+      },
+      "bbox": [
+        -94.1760998,
+        36.3660138,
+        -94.1758844,
+        36.3662826
+      ]
+    }
+  ],
+  "query": {
+    "text": "607 SE CAMBRIDGE PL BENTONVILLE, AR 72712",
+    "parsed": {
+      "housenumber": "607",
+      "street": "se cambridge pl",
+      "postcode": "72712",
+      "city": "bentonville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "requested_address": "PO BOX 8323, FAYETTEVILLE, AR 72703-0006",
+  "property_record": {
+    "address": "4404 W FLAGSTICK DR",
+    "mail_address": "PO BOX 8323, FAYETTEVILLE, AR 72703-0006",
+    "owner": "SMITH, DAVID BRYAN & AMY VICTORIA",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "72,064",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 091",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": null,
+        "street": null,
+        "housenumber": null,
+        "lon": -94.1574328,
+        "lat": 36.0625843,
+        "state_code": "AR",
+        "result_type": "city",
+        "formatted": "Fayetteville, AR, United States of America",
+        "address_line1": "Fayetteville, AR",
+        "address_line2": "United States of America",
+        "category": "administrative",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873R7V+22",
+        "plus_code_short": "+22 Fayetteville, Washington County, United States",
+        "rank": {
+          "importance": 0.6360588708728855,
+          "popularity": 2.776819183585732,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": null,
+          "confidence_building_level": null,
+          "match_type": "full_match"
+        },
+        "place_id": "5155d40561138a57c0591cdf28c302084240f00101f90175b3010000000000c00208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1574328,
+          36.0625843
+        ]
+      },
+      "bbox": [
+        -94.2977782,
+        35.9893558,
+        -94.0267113,
+        36.1489329
+      ]
+    }
+  ],
+  "query": {
+    "text": "PO BOX 8323, FAYETTEVILLE, AR 72703-0006",
+    "parsed": {
+      "housenumber": null,
+      "street": null,
+      "postcode": "72703-0006",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "postcode"
+    }
+  }
+}

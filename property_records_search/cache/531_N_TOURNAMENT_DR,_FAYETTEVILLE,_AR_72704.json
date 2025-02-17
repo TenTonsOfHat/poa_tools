@@ -1,0 +1,90 @@
+{
+  "requested_address": "531 N TOURNAMENT DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "531 N TOURNAMENT DR",
+    "mail_address": "531 N TOURNAMENT DR, FAYETTEVILLE, AR 72704",
+    "owner": "MAHER, MATTHEW & SHANNON",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "89,900",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 042",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "North Tournament Drive",
+        "housenumber": "531",
+        "lon": -94.22624035790679,
+        "lat": 36.07226665,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "531 North Tournament Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "531 North Tournament Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QCF+WG",
+        "plus_code_short": "3QCF+WG, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.41000999999999993,
+          "popularity": 1.998941982112089,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51ae8fd6b87a8e57c059b62b990840094240f00102f901c736681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22624035790679,
+          36.07226665
+        ]
+      },
+      "bbox": [
+        -94.2263338,
+        36.0721659,
+        -94.226073,
+        36.0723482
+      ]
+    }
+  ],
+  "query": {
+    "text": "531 N TOURNAMENT DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "531",
+      "street": "n tournament dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "requested_address": "4468 W LOFTYWOOD DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4468 W LOFTY WOOD DR",
+    "mail_address": "4468 W LOFTYWOOD DR, FAYETTEVILLE, AR 72704",
+    "owner": "HAIRSTON, GRANT M & KATHRINE L",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "92,860",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 026",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openaddresses",
+          "attribution": "\u00a9 OpenAddresses contributors",
+          "license": "BSD-3-Clause License",
+          "url": null
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Lofty Wood Drive",
+        "housenumber": "4468",
+        "lon": -94.224449,
+        "lat": 36.075049,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4468 West Lofty Wood Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4468 West Lofty Wood Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QGG+26",
+        "plus_code_short": "3QGG+26, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 1.9991352611188624,
+          "confidence": 0.5555555555555556,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 0.5555555555555556,
+          "confidence_building_level": 0.5555555555555556,
+          "match_type": "full_match"
+        },
+        "place_id": "51ada7565f5d8e57c0597b4ca4349b094240c00203e203506f70656e6164647265737365733a616464726573733a75732f61722f636974795f6f665f6661796574746576696c6c652d6164647265737365732d636974793a39356262376538313061656461333232"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.224449,
+          36.075049
+        ]
+      },
+      "bbox": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "whosonfirst",
+          "attribution": "Who's On First",
+          "license": "CC0",
+          "url": "https://www.whosonfirst.org/docs/licenses/"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": null,
+        "housenumber": null,
+        "lon": -94.157671,
+        "lat": 36.072575,
+        "state_code": "AR",
+        "result_type": "city",
+        "formatted": "Fayetteville, AR 72704, United States of America",
+        "address_line1": "Fayetteville, AR 72704",
+        "address_line2": "United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873RFR+2W",
+        "plus_code_short": "FR+2W, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 2.6642429946641175,
+          "confidence": 0.25,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": null,
+          "confidence_building_level": null,
+          "match_type": "match_by_city_or_disrict"
+        },
+        "place_id": "51c4211b48178a57c059ecc039234a094240c00208e2031d77686f736f6e66697273743a6c6f63616c6974793a3835393139363039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.157671,
+          36.072575
+        ]
+      },
+      "bbox": [
+        -94.297844,
+        35.989359,
+        -94.026706,
+        36.148781
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openaddresses",
+          "attribution": "\u00a9 OpenAddresses contributors",
+          "license": "BSD-3-Clause License",
+          "url": null
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Blissful Drive",
+        "housenumber": "4468",
+        "lon": -94.224752,
+        "lat": 36.067303,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4468 West Blissful Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4468 West Blissful Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873Q8G+W3",
+        "plus_code_short": "3Q8G+W3, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 1.9969681443518619,
+          "confidence": 0.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 0.0,
+          "confidence_building_level": 0.0,
+          "match_type": "full_match"
+        },
+        "place_id": "517a6d3656628e57c0591bf67b629d084240c00203e203506f70656e6164647265737365733a616464726573733a75732f61722f636974795f6f665f6661796574746576696c6c652d6164647265737365732d636974793a38643664373636656664373061396361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.224752,
+          36.067303
+        ]
+      },
+      "bbox": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "whosonfirst",
+          "attribution": "Who's On First",
+          "license": "CC0",
+          "url": "https://www.whosonfirst.org/docs/licenses/"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Missouri",
+        "county": "Johnson County",
+        "city": "Fayetteville",
+        "postcode": null,
+        "street": null,
+        "housenumber": null,
+        "lon": -93.75633,
+        "lat": 38.88112,
+        "state_code": "MO",
+        "result_type": "city",
+        "formatted": "Hazel Hill Township (Fayetteville), MO, United States of America",
+        "address_line1": "Hazel Hill Township (Fayetteville), MO",
+        "address_line2": "United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86C8V6JV+CF",
+        "plus_code_short": null,
+        "rank": {
+          "importance": null,
+          "popularity": 1.5220531468754273,
+          "confidence": 0.0,
+          "confidence_city_level": 0.0,
+          "confidence_street_level": null,
+          "confidence_building_level": null,
+          "match_type": "match_by_city_or_disrict"
+        },
+        "place_id": "51f5bef1b5677057c059ffec478ac8704340c00208e2031f77686f736f6e66697273743a6c6f63616c6974793a31333433353837313039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.75633,
+          38.88112
+        ]
+      },
+      "bbox": [
+        -93.77633,
+        38.86112,
+        -93.73633,
+        38.90112
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "whosonfirst",
+          "attribution": "Who's On First",
+          "license": "CC0",
+          "url": "https://www.whosonfirst.org/docs/licenses/"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Tennessee",
+        "county": "Lincoln County",
+        "city": "Fayetteville",
+        "postcode": null,
+        "street": null,
+        "housenumber": null,
+        "lon": -86.562786,
+        "lat": 35.148182,
+        "state_code": "TN",
+        "result_type": "city",
+        "formatted": "Fayetteville, TN, United States of America",
+        "address_line1": "Fayetteville, TN",
+        "address_line2": "United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "867M4CXP+7V",
+        "plus_code_short": "XP+7V Fayetteville, Lincoln County, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 1.681275439117377,
+          "confidence": 0.0,
+          "confidence_city_level": 0.0,
+          "confidence_street_level": null,
+          "confidence_building_level": null,
+          "match_type": "match_by_city_or_disrict"
+        },
+        "place_id": "51632992af04a455c0598dedb5a0f7924140c00208e2031e77686f736f6e66697273743a6c6f63616c6974793a313031373232373737"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.562786,
+          35.148182
+        ]
+      },
+      "bbox": [
+        -86.608764,
+        35.109927,
+        -86.498935,
+        35.177121
+      ]
+    }
+  ],
+  "query": {
+    "text": "4468 W LOFTYWOOD DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4468",
+      "street": "w loftywood dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

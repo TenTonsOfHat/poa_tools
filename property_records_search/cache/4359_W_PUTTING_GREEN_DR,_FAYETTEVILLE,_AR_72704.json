@@ -1,0 +1,90 @@
+{
+  "requested_address": "4359 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4359 W PUTTING GREEN DR",
+    "mail_address": "4359 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+    "owner": "GOFF, PEGGY F",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "53,630",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 068",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Putting Green Drive",
+        "housenumber": "4359",
+        "lon": -94.22293791080358,
+        "lat": 36.0726639,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4359 West Putting Green Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4359 West Putting Green Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFG+3R",
+        "plus_code_short": "3QFG+3R, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.51001,
+          "popularity": 2.0004326223553828,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "5128fc5e9d448e57c059c70cf90c4d094240f00102f9019636681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22293791080358,
+          36.0726639
+        ]
+      },
+      "bbox": [
+        -94.223076,
+        36.0725986,
+        -94.2228314,
+        36.0728166
+      ]
+    }
+  ],
+  "query": {
+    "text": "4359 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4359",
+      "street": "w putting green dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "requested_address": "4503 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4503 W PUTTING GREEN DR",
+    "mail_address": "4503 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+    "owner": "FORD, KRISTIE",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "86,280",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 061",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Putting Green Drive",
+        "housenumber": "4503",
+        "lon": -94.22497670250775,
+        "lat": 36.07277005,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4503 West Putting Green Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4503 West Putting Green Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFG+42",
+        "plus_code_short": "3QFG+42, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.51001,
+          "popularity": 1.998941982112089,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "517ee8ae04668e57c0596c706c8750094240f00102f901df36681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22497670250775,
+          36.07277005
+        ]
+      },
+      "bbox": [
+        -94.2250815,
+        36.072665,
+        -94.2248731,
+        36.0728651
+      ]
+    }
+  ],
+  "query": {
+    "text": "4503 W PUTTING GREEN DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4503",
+      "street": "w putting green dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

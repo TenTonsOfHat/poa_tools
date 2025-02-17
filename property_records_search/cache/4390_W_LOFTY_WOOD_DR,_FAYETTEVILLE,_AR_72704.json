@@ -1,0 +1,90 @@
+{
+  "requested_address": "4390 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704",
+  "property_record": {
+    "address": "4390 W LOFTY WOOD DR",
+    "mail_address": "4390 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704",
+    "owner": "BOWERS, DANNY & PAMELA",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "75,384",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 022",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Lofty Wood Drive",
+        "housenumber": "4390",
+        "lon": -94.22336209776483,
+        "lat": 36.0750068,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4390 West Lofty Wood Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4390 West Lofty Wood Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QGG+2M",
+        "plus_code_short": "3QGG+2M, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.51001,
+          "popularity": 1.9999494248384495,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "5138448a904b8e57c059227da4d299094240f00102f901e037681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22336209776483,
+          36.0750068
+        ]
+      },
+      "bbox": [
+        -94.2234467,
+        36.0748741,
+        -94.2232403,
+        36.0750875
+      ]
+    }
+  ],
+  "query": {
+    "text": "4390 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704",
+    "parsed": {
+      "housenumber": "4390",
+      "street": "w lofty wood dr",
+      "postcode": "72704",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

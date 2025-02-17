@@ -1,0 +1,90 @@
+{
+  "requested_address": "2002 N LINCOLN AVE TAMPA, FL 33607",
+  "property_record": {
+    "address": "4506 W FLAGSTICK DR",
+    "mail_address": "2002 N LINCOLN AVE TAMPA, FL 33607",
+    "owner": "NY INVESTMENTS LLC",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "75,855",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 096",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Hillsborough County",
+        "city": "Tampa",
+        "postcode": "33607",
+        "street": "North Lincoln Avenue",
+        "housenumber": "2002",
+        "lon": -82.49741104081633,
+        "lat": 27.959562102040817,
+        "state_code": "FL",
+        "result_type": "building",
+        "formatted": "2002 North Lincoln Avenue, Tampa, FL 33607, United States of America",
+        "address_line1": "2002 North Lincoln Avenue",
+        "address_line2": "Tampa, FL 33607, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/New_York",
+          "offset_STD": "-05:00",
+          "offset_STD_seconds": -18000,
+          "offset_DST": "-04:00",
+          "offset_DST_seconds": -14400,
+          "abbreviation_STD": "EST",
+          "abbreviation_DST": "EDT"
+        },
+        "plus_code": "76VVXG53+R2",
+        "plus_code_short": "XG53+R2 Tampa, Hillsborough County, United States",
+        "rank": {
+          "importance": -0.74,
+          "popularity": 5.216711698639821,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "516e3e1e95d59f54c0590fbfa6dca5f53b40f00102f90149a1a70000000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.49741104081633,
+          27.959562102040817
+        ]
+      },
+      "bbox": [
+        -82.497461040816,
+        27.959512102041,
+        -82.497361040816,
+        27.959612102041
+      ]
+    }
+  ],
+  "query": {
+    "text": "2002 N LINCOLN AVE TAMPA, FL 33607",
+    "parsed": {
+      "housenumber": "2002",
+      "street": "n lincoln ave",
+      "postcode": "33607",
+      "city": "tampa",
+      "state": "fl",
+      "expected_type": "building"
+    }
+  }
+}

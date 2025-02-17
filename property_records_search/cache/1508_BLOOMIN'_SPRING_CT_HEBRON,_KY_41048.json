@@ -1,0 +1,85 @@
+{
+  "requested_address": "1508 BLOOMIN' SPRING CT HEBRON, KY 41048",
+  "property_record": {
+    "address": "4501 W WEDGE DR",
+    "mail_address": "1508 BLOOMIN' SPRING CT HEBRON, KY 41048",
+    "owner": "BOLEY, SPENCER & KATE",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "82,823",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 047",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openaddresses",
+          "attribution": "\u00a9 OpenAddresses contributors",
+          "license": "BSD-3-Clause License",
+          "url": null
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Kentucky",
+        "county": "Boone County",
+        "city": "Hebron",
+        "postcode": "41048",
+        "street": "Bloomin Spring Court",
+        "housenumber": "1508",
+        "lon": -84.744266,
+        "lat": 39.106712,
+        "state_code": "KY",
+        "result_type": "building",
+        "formatted": "1508 Bloomin Spring Court, Hebron, KY 41048, United States of America",
+        "address_line1": "1508 Bloomin Spring Court",
+        "address_line2": "Hebron, KY 41048, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/New_York",
+          "offset_STD": "-05:00",
+          "offset_STD_seconds": -18000,
+          "offset_DST": "-04:00",
+          "offset_DST_seconds": -14400,
+          "abbreviation_STD": "EST",
+          "abbreviation_DST": "EDT"
+        },
+        "plus_code": "86FQ4744+M7",
+        "plus_code_short": "4744+M7, 41048 Hebron, United States",
+        "rank": {
+          "importance": null,
+          "popularity": 2.7388446107372304,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "519561dc0da22f55c0599e0b23bda88d4340c00203e203466f70656e6164647265737365733a616464726573733a75732f6b792f7374617465776964652d6164647265737365732d73746174653a39386136353236613137323962396665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.744266,
+          39.106712
+        ]
+      },
+      "bbox": null
+    }
+  ],
+  "query": {
+    "text": "1508 BLOOMIN' SPRING CT HEBRON, KY 41048",
+    "parsed": {
+      "housenumber": "1508",
+      "street": "bloomin' spring ct",
+      "postcode": "41048",
+      "city": "hebron",
+      "state": "ky",
+      "expected_type": "building"
+    }
+  }
+}

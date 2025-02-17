@@ -1,0 +1,90 @@
+{
+  "requested_address": "4427 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704-7521",
+  "property_record": {
+    "address": "4427 W LOFTY WOOD DR",
+    "mail_address": "4427 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704-7521",
+    "owner": "STRASSER, KEVIN SHAWN & DAWN RENEE",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "91,640",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 105",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Lofty Wood Drive",
+        "housenumber": "4427",
+        "lon": -94.22376287214817,
+        "lat": 36.0745116,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4427 West Lofty Wood Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4427 West Lofty Wood Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFG+RF",
+        "plus_code_short": "3QFG+RF, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.51001,
+          "popularity": 1.9999494248384495,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51de7b8221528e57c05919969a9889094240f00102f901c237681d00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22376287214817,
+          36.0745116
+        ]
+      },
+      "bbox": [
+        -94.2238778,
+        36.0744239,
+        -94.2236492,
+        36.0746069
+      ]
+    }
+  ],
+  "query": {
+    "text": "4427 W LOFTY WOOD DR, FAYETTEVILLE, AR 72704-7521",
+    "parsed": {
+      "housenumber": "4427",
+      "street": "w lofty wood dr",
+      "postcode": "72704-7521",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

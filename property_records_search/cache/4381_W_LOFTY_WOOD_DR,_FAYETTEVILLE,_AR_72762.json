@@ -1,0 +1,90 @@
+{
+  "requested_address": "4381 W LOFTY WOOD DR, FAYETTEVILLE, AR 72762",
+  "property_record": {
+    "address": "4381 W LOFTY WOOD DR",
+    "mail_address": "4381 W LOFTY WOOD DR, FAYETTEVILLE, AR 72762",
+    "owner": "SMITH, BRUCE & VEDA",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "83,410",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 107",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Arkansas",
+        "county": "Washington County",
+        "city": "Fayetteville",
+        "postcode": "72704",
+        "street": "West Lofty Wood Drive",
+        "housenumber": "4381",
+        "lon": -94.22318931920739,
+        "lat": 36.07449815,
+        "state_code": "AR",
+        "result_type": "building",
+        "formatted": "4381 West Lofty Wood Drive, Fayetteville, AR 72704, United States of America",
+        "address_line1": "4381 West Lofty Wood Drive",
+        "address_line2": "Fayetteville, AR 72704, United States of America",
+        "category": "building.residential",
+        "timezone": {
+          "name": "America/Chicago",
+          "offset_STD": "-06:00",
+          "offset_STD_seconds": -21600,
+          "offset_DST": "-05:00",
+          "offset_DST_seconds": -18000,
+          "abbreviation_STD": "CST",
+          "abbreviation_DST": "CDT"
+        },
+        "plus_code": "86873QFG+QP",
+        "plus_code_short": "3QFG+QP, 72704 Fayetteville, United States",
+        "rank": {
+          "importance": 0.6100099999999999,
+          "popularity": 1.9999494248384495,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51fcb3dabb488e57c05966eec62789094240f00102f9010437681d00000000c00203e203506f70656e6164647265737365733a616464726573733a75732f61722f636974795f6f665f6661796574746576696c6c652d6164647265737365732d636974793a35653935653461666230373237346563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22318931920739,
+          36.07449815
+        ]
+      },
+      "bbox": [
+        -94.2232981,
+        36.0744249,
+        -94.2230797,
+        36.0745905
+      ]
+    }
+  ],
+  "query": {
+    "text": "4381 W LOFTY WOOD DR, FAYETTEVILLE, AR 72762",
+    "parsed": {
+      "housenumber": "4381",
+      "street": "w lofty wood dr",
+      "postcode": "72762",
+      "city": "fayetteville",
+      "state": "ar",
+      "expected_type": "building"
+    }
+  }
+}

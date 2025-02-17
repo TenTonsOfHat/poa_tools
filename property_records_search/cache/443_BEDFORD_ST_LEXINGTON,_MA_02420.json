@@ -1,0 +1,151 @@
+{
+  "requested_address": "443 BEDFORD ST LEXINGTON, MA 02420",
+  "property_record": {
+    "address": "609 N TOURNAMENT DR",
+    "mail_address": "443 BEDFORD ST LEXINGTON, MA 02420",
+    "owner": "WANG, GUOCHUN & YANRAN SHI",
+    "subdivision": "CROSS KEYS S/D PH I",
+    "city": "Fayetteville",
+    "assessed_value": "76,349",
+    "str_location": "12-16-31",
+    "block_lot": "N/A / 036",
+    "acres": "N/A",
+    "legal": ""
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Massachusetts",
+        "county": "Middlesex County",
+        "city": "Lexington",
+        "postcode": "02420",
+        "street": "Bedford Street",
+        "housenumber": "443",
+        "lon": -71.24988943877551,
+        "lat": 42.474978102040815,
+        "state_code": "MA",
+        "result_type": "building",
+        "formatted": "443 Bedford Street, Lexington, MA 02420, United States of America",
+        "address_line1": "443 Bedford Street",
+        "address_line2": "Lexington, MA 02420, United States of America",
+        "category": null,
+        "timezone": {
+          "name": "America/New_York",
+          "offset_STD": "-05:00",
+          "offset_STD_seconds": -18000,
+          "offset_DST": "-04:00",
+          "offset_DST_seconds": -14400,
+          "abbreviation_STD": "EST",
+          "abbreviation_DST": "EDT"
+        },
+        "plus_code": "87JCFQF2+X2",
+        "plus_code_short": "FQF2+X2, 02420 Lexington, United States",
+        "rank": {
+          "importance": -0.8399999999999999,
+          "popularity": 4.434098505482779,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "5106ca4530fecf51c0596d4a1b15cc3c4540f00102f9011b084c2f00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.24988943877551,
+          42.474978102040815
+        ]
+      },
+      "bbox": [
+        -71.249939438776,
+        42.474928102041,
+        -71.249839438776,
+        42.475028102041
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "\u00a9 OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Massachusetts",
+        "county": "Middlesex County",
+        "city": "Lexington",
+        "postcode": "01731",
+        "street": "Bedford Street",
+        "housenumber": "443",
+        "lon": -71.24857915000001,
+        "lat": 42.47436935,
+        "state_code": "MA",
+        "result_type": "building",
+        "formatted": "443 Bedford Street, Lexington, MA 01731, United States of America",
+        "address_line1": "443 Bedford Street",
+        "address_line2": "Lexington, MA 01731, United States of America",
+        "category": "building",
+        "timezone": {
+          "name": "America/New_York",
+          "offset_STD": "-05:00",
+          "offset_STD_seconds": -18000,
+          "offset_DST": "-04:00",
+          "offset_DST_seconds": -14400,
+          "abbreviation_STD": "EST",
+          "abbreviation_DST": "EDT"
+        },
+        "plus_code": "87JCFQF2+PH",
+        "plus_code_short": "FQF2+PH, 01731 Lexington, United States",
+        "rank": {
+          "importance": 0.31001,
+          "popularity": 4.434098505482779,
+          "confidence": 1.0,
+          "confidence_city_level": 1.0,
+          "confidence_street_level": 1.0,
+          "confidence_building_level": 1.0,
+          "match_type": "full_match"
+        },
+        "place_id": "51eced85b8e8cf51c059c63c8622b83c4540f00102f90109d7c50c00000000c00203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.24857915000001,
+          42.47436935
+        ]
+      },
+      "bbox": [
+        -71.2486621,
+        42.4743064,
+        -71.2484962,
+        42.4744323
+      ]
+    }
+  ],
+  "query": {
+    "text": "443 BEDFORD ST LEXINGTON, MA 02420",
+    "parsed": {
+      "housenumber": "443",
+      "street": "bedford st",
+      "postcode": "02420",
+      "city": "lexington",
+      "state": "ma",
+      "expected_type": "building"
+    }
+  }
+}

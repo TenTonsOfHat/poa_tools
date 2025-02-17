@@ -106,8 +106,9 @@ async def geocode_address(address: str, session: aiohttp.ClientSession) -> Geoco
     if os.path.exists(cache_file):
         with open(cache_file, 'r') as f:
             cached_data = json.load(f)
-            return GeocodingResponse(**cached_data)
-
+            response = GeocodingResponse(**cached_data)
+            response.features[0].properties.formatted = response.features[0].properties.formatted.replace('United States of America', '')
+            
     # API endpoint and parameters
     base_url = "https://api.geoapify.com/v1/geocode/search"
     api_key = "8923fefc90c24aa1bbe6bb22b302d39b"
@@ -141,7 +142,6 @@ async def geocode_address(address: str, session: aiohttp.ClientSession) -> Geoco
         json_data = await response.json()
         json_data['requested_address'] = address
         model = GeocodingResponse(**json_data)
-        model.features[0].properties.formatted = model.features[0].properties.formatted.replace(', United States of America', '')
         # Save the result to the cache
         with open(cache_file, 'w') as f:
             json.dump(model.model_dump(), f, indent=2)

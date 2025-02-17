@@ -126,3 +126,7 @@ dmypy.json
 property_records_search/geo_search/cache/
 
 google_sheets_access/api-tools-450718-e1d143b7d86d.json
+
+property_records_search/cache/
+
+property_records_search/search_data/

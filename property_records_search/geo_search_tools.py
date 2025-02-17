@@ -6,6 +6,7 @@ from typing import List, Dict
 
 from typing import List, Optional
 from pydantic import BaseModel, Field
+from property_record_tools import PropertyRecord, load_clean_property_records
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 STORAGE_DIR = os.path.join(SCRIPT_DIR, "cache")
@@ -92,16 +93,17 @@ class Feature(BaseModel):
 
 class GeocodingResponse(BaseModel):
     requested_address: Optional[str] = None
+    property_record: Optional[PropertyRecord] = None
     type: Optional[str] = None
     features: Optional[List[Feature]] = None
     query: Optional[Query] = None
 
 
-async def geocode_address(address: str, session: aiohttp.ClientSession) -> GeocodingResponse:
+async def geocode_address(address: PropertyRecord, session: aiohttp.ClientSession) -> GeocodingResponse:
     # Create cache directory if it doesn't exist
     os.makedirs(STORAGE_DIR, exist_ok=True)
     # Create cache filename from address
-    cache_file = os.path.join(STORAGE_DIR, f"{address.replace(' ', '_')}.json")
+    cache_file = os.path.join(STORAGE_DIR, f"{address.mail_address.replace(' ', '_')}.json")
     # Check if cached result exists
     if os.path.exists(cache_file):
         with open(cache_file, 'r') as f:
@@ -114,7 +116,7 @@ async def geocode_address(address: str, session: aiohttp.ClientSession) -> Geoco
     api_key = "8923fefc90c24aa1bbe6bb22b302d39b"
     
     params = {
-        "text": address,
+        "text": address.mail_address,
         "lang": "en",
         "filter": "countrycode:us",
         "apiKey": api_key
@@ -140,14 +142,15 @@ async def geocode_address(address: str, session: aiohttp.ClientSession) -> Geoco
 
     async with session.get(base_url, params=params, headers=headers) as response:
         json_data = await response.json()
-        json_data['requested_address'] = address
+        json_data['requested_address'] = address.mail_address
+        json_data['property_record'] = address.model_dump()
         model = GeocodingResponse(**json_data)
         # Save the result to the cache
         with open(cache_file, 'w') as f:
             json.dump(model.model_dump(), f, indent=2)
         return model
 
-async def geocode_addresses_async(addresses: List[str]) -> Dict[str, GeocodingResponse]:
+async def geocode_addresses_async(addresses: List[PropertyRecord]) -> Dict[str, GeocodingResponse]:
     async with aiohttp.ClientSession() as session:
         tasks = [geocode_address(address, session) for address in addresses]
         task_results = await asyncio.gather(*tasks)
@@ -155,30 +158,13 @@ async def geocode_addresses_async(addresses: List[str]) -> Dict[str, GeocodingRe
         return {result.requested_address: result for result in task_results}
 
 
-def geocode_addresses(addresses: List[str]) -> Dict[str, GeocodingResponse]:
+def geocode_addresses(addresses: List[PropertyRecord]) -> Dict[str, GeocodingResponse]:
     resp = asyncio.run(geocode_addresses_async(addresses)) 
     return resp
 
-async def main():
-    # Example addresses
-    addresses = [
-        "4433 W WEDGE DR FAYETTEVILLE, AR 72704",
-        "123 Main St, New York, NY 10001",
-        "1600 Pennsylvania Avenue NW, Washington, DC 20500"
-    ]
-    
-    results = await geocode_addresses_async(addresses)
-    for result in results:
-        print(f"\nResults for {result['requested_address']}:")
-        print(result['result'])
 
 if __name__ == "__main__":
-    addresses = [
-        "4433 W WEDGE DR FAYETTEVILLE, AR 72704",
-        "123 Main St, New York, NY 10001",
-        "1600 Pennsylvania Avenue NW, Washington, DC 20500"
-    ]
-
+    addresses = load_clean_property_records()
     resp : Dict[str, GeocodingResponse] = geocode_addresses(addresses) 
     geocoding_response = resp['4433 W WEDGE DR FAYETTEVILLE, AR 72704']
     print(json.dumps(geocoding_response.model_dump(), indent=2))

@@ -361,6 +361,9 @@ def clean_property_record():
     for record in records:
         if record.address in record.mail_address and 'SPRINGDALE' in record.mail_address:
             record.mail_address = record.mail_address.replace('SPRINGDALE', 'FAYETTEVILLE') 
+        
+        record.mail_address = record.mail_address.replace(' FAYETTEVILLE', ', FAYETTEVILLE') 
+
 
     # Write updated records back to JSON
     records_dict = [record.model_dump(by_alias=True) for record in records]

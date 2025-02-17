@@ -1,4 +1,4 @@
-Name,Address 1,Address 2,City,State,Zipcode,Country
+fullname,Address 1,Address 2,City,State,Zipcode,Country
 "GRAGG, CHRIS",4433 West Wedge Drive,,Fayetteville,AR,72704,USA
 "ROTHMEYER, MATTHEW P & SHENIAH B",4421 West Wedge Drive,,Fayetteville,AR,72704,USA
 "PRICE, MICHAEL & SHANNON TRUST",4399 West Wedge Drive,,Fayetteville,AR,72704,USA
@@ -38,13 +38,13 @@ R3 TRUST,4482 West Lofty Wood Drive,,Fayetteville,AR,72704,USA
 "SMALL, CHARLCEE & SMITH, DEREK",593 North Tournament Drive,,Fayetteville,AR,72704,USA
 "NEWMAN, JOSHUA T & BRITTANY K",581 North Tournament Drive,,Fayetteville,AR,72704,USA
 "SUTTON, HOLLY LEIGH",569 North Tournament Drive,,Fayetteville,AR,72704,USA
-"MABRY, STEVEN C & TAMMY R",3793 Lake Vista Drive,,Scio Township,MI,48130,USA
+"MABRY, STEVEN C & TAMMY R",3793 Lake Vista Drive,,Dexter,MI,48130,USA
 "HENBEST, DANNY L; DUNN, PAMELA A",543 North Tournament Drive,,Fayetteville,AR,72704,USA
 "MAHER, MATTHEW & SHANNON",531 North Tournament Drive,,Fayetteville,AR,72704,USA
 "FORD, ANDREW L",515 North Tournament Drive,,Fayetteville,AR,72704,USA
 "MOSES, YESU EBENEZER JOSHUVA & STEPHEN, WYOMIA RANI",607 Southeast Cambridge Place,,Bentonville,AR,72712,USA
 "PERRY, SHELLY D",4541 West Wedge Drive,,Fayetteville,AR,72704,USA
-"BOLEY, SPENCER & KATE",1508 Blooming Spring Court,,Hebron,KY,41048,USA
+"BOLEY, SPENCER & KATE",1508 Bloomin Spring Court,,Hebron,KY,41048,USA
 "ISRAEL, BEN & NANCY REVOCABLE TRUST",4477 West Wedge Drive,,Fayetteville,AR,72704,USA
 "LEDBETTER, JOSHUA M & LINDSEY E",4358 West Wedge Drive,,Fayetteville,AR,72704,USA
 "BEWLEY, KALEN & TIFFANY",4376 West Wedge Drive,,Fayetteville,AR,72704,USA
@@ -59,7 +59,7 @@ R3 TRUST,4482 West Lofty Wood Drive,,Fayetteville,AR,72704,USA
 "BAILEY, RYAN & LEATHIA",4543 West Putting Green Drive,,Fayetteville,AR,72704,USA
 "FUNK, DAVID & TERESA",4521 West Putting Green Drive,,Fayetteville,AR,72704,USA
 "FORD, KRISTIE",4503 West Putting Green Drive,,Fayetteville,AR,72704,USA
-ZERO DAY ADVENTURES LLC,1015 Piping Rock Lane,,Denton,TX,76205,USA
+ZERO DAY ADVENTURES LLC,1015 Piping Rock Street,,Denton,TX,76205,USA
 "GULIZIA, JAMES M & AMY L",809 Lyndsey Way,,Colleyville,TX,76034,USA
 "SAXON, KAREN & BENJAMIN",4435 West Putting Green Drive,,Fayetteville,AR,72704,USA
 "FLOYD, CHARLES LEE & AMY MEGAN",4423 West Putting Green Drive,,Fayetteville,AR,72704,USA
@@ -88,7 +88,7 @@ SCHLOSS PROPERTY GROUP LLC,664 North Cliffside Drive,,Fayetteville,AR,72701,USA
 "MULHERIN, MAXWELL & BRETT MARIE",4361 West Flagstick Drive,,Fayetteville,AR,72704,USA
 "WILCOX, MICHAEL DEAN & SHARON ANN",4362 West Flagstick Drive,,Fayetteville,AR,72704,USA
 "AGGUS, LARRY & LYNDA",4380 West Flagstick Drive,,Fayetteville,AR,72704,USA
-"SMITH, DAVID BRYAN & AMY VICTORIA",PO,,Fayetteville,AR,72703,USA
+"SMITH, DAVID BRYAN & AMY VICTORIA",PO BOX 8323,,Fayetteville,AR,,USA
 "CHENAULT, HENRY C III & SUE ANN",4426 West Flagstick Drive,,Fayetteville,AR,72704,USA
 "HARBOUR, ERIC",4438 West Flagstick Drive,,Fayetteville,AR,72704,USA
 "BOUNKHONG, SANDY",4460 West Flagstick Drive,,Fayetteville,AR,72704,USA
@@ -97,7 +97,7 @@ NY INVESTMENTS LLC,2002 North Lincoln Avenue,,Tampa,FL,33607,USA
 "BRUNNER, JASON ROBERT & SARAH CASSADY",4524 West Flagstick Drive,,Fayetteville,AR,72704,USA
 "HEARN, SEAN P; WILLIAMS, KIMBERLY K",4546 West Flagstick Drive,,Fayetteville,AR,72704,USA
 "BLEVINS, STEVEN WAYNE & SUE ANN",4547 West Lofty Wood Drive,,Fayetteville,AR,72704,USA
-"ELLENBARGER, JILL F & MICHAEL R",PO,,Fayetteville,AR,72703,USA
+"ELLENBARGER, JILL F & MICHAEL R",PO BOX 10943,,Fayetteville,AR,72703,USA
 "MORRIS, NATHANIEL & RASHEDA",4507 West Lofty Wood Drive,,Fayetteville,AR,72704,USA
 "MCGRAW, LISA K",4483 West Lofty Wood Drive,,Fayetteville,AR,72704,USA
 "CAMPBELL, TIMOTHY B & JENNIFER M",4461 West Lofty Wood Drive,,Fayetteville,AR,72704,USA

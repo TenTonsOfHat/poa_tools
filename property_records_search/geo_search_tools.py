@@ -118,7 +118,7 @@ async def geocode_address(address: PropertyRecord, session: aiohttp.ClientSessio
     params = {
         "text": address.mail_address,
         "lang": "en",
-        "filter": "countrycode:us",
+        #"filter": "countrycode:us",
         "apiKey": api_key
     }
 
@@ -166,5 +166,5 @@ def geocode_addresses(addresses: List[PropertyRecord]) -> Dict[str, GeocodingRes
 if __name__ == "__main__":
     addresses = load_clean_property_records()
     resp : Dict[str, GeocodingResponse] = geocode_addresses(addresses) 
-    geocoding_response = resp['4433 W WEDGE DR FAYETTEVILLE, AR 72704']
+    geocoding_response = resp['1508 BLOOMIN\' SPRING CT HEBRON, KY 41048']
     print(json.dumps(geocoding_response.model_dump(), indent=2))
